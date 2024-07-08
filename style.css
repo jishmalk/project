@@ -130,7 +130,7 @@ section .main .social_icon i{
 }
 
 section .main .social_icon i:hover{
-    color: #f6edf3;
+    color: red;
 }
 
 section .main .button{
