@@ -32,17 +32,14 @@ section nav{
 
 section nav .logo{
     font-size: 35px;
-    color: #d81c0e;
+    color: #6c14d0;
     margin: 5px 0;
     cursor: pointer;
     position: relative;
     left: -4%;
 }
 
-section nav .logo span{
-    color: #b91699;
-    text-decoration: underline;
-}
+
 
 section nav ul{
     list-style: none;
