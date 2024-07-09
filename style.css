@@ -57,7 +57,7 @@ section nav ul li a{
 }
 
 section nav ul li a:hover{
-    color: #141313;
+    color: #6c14d0;
 }
 
 section nav .icons i{
@@ -68,7 +68,7 @@ section nav .icons i{
 }
 
 section nav .icons i:hover{
-    color: #5fcc12;
+    color: #6c14d0;
 }
 
 section .main .main_content{
@@ -127,7 +127,7 @@ section .main .social_icon i{
 }
 
 section .main .social_icon i:hover{
-    color: red;
+    color: #6c14d0;
 }
 
 section .main .button{
