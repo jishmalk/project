@@ -256,3 +256,84 @@ section .main .button:hover i{
     margin-left: 350px;
     border-radius: 30px;
 }
+
+
+.contact{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0; 
+}
+.contact-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contact-text h2 span{
+    color: #6c14d0;
+} 
+.contact-text h4{
+    margin: 15px 0;
+    color: #6c14d0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-text p{
+    color:#6c14d0;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.contact-list{
+    margin-bottom: 3rem;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    color: #6c14d0;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #ededed;
+}
+.contact-icons i{
+    padding: 10px 10px;
+    background:  #6c14d0;
+    color: white;
+    border-radius: 30px;
+} 
+
+.contact-form{
+    padding-left: 25px;
+}
+
+.contact-form form input,form textarea{
+    border: 2px solid #6c14d0;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: white;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form .send{
+    background-color: #6c14d0;
+    color: white;
+}
