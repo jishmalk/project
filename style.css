@@ -288,13 +288,8 @@ section .main .button:hover i{
     line-height: 30px;
     margin-bottom: 2rem;
 }
-.contact-list{
-    margin-bottom: 3rem;
-}
-.contact-list li{
-    margin-bottom: 10px;
-    display: block;
-}
+
+
 .contact-list li{
     margin-bottom: 10px;
     display: block;
@@ -304,12 +299,9 @@ section .main .button:hover i{
     color: #6c14d0;
     font-size: 20px;
     font-weight: 600;
-    transition: all .40s ease;
+
 }
-.contact-list li a:hover{
-    transform: scale(1.01) translateY(-5px);
-    color: #ededed;
-}
+
 .contact-icons i{
     padding: 10px 10px;
     background:  #6c14d0;
@@ -318,7 +310,7 @@ section .main .button:hover i{
 } 
 
 .contact-form{
-    padding-left: 25px;
+    padding-left: 50px;
 }
 
 .contact-form form input,form textarea{
