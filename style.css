@@ -659,30 +659,33 @@ footer .footer_main .tag .social_link a::after{
 
 @media (max-width: 600px) {
     .about .about_text {
-        flex-direction: column; /* Change the flex direction to column */
-        margin-top: 20px; /* Adjust margin if necessary */
+        flex-direction: column; 
+        margin-top: 20px;
     }
 
     .about .about_text p {
-        width: 100%; /* Make paragraph width 100% */
-        padding: 20px; /* Adjust padding if necessary */
+        width: 100%; 
+        padding: 20px; 
     }
 
     .about .about_text p .btn {
-        margin-left: auto; /* Center the button horizontally */
-        margin-right: auto; /* Center the button horizontally */
-        display: block; /* Ensure the button is displayed as block */
+        margin-left: auto; 
+        margin-right: auto; 
+        display: block; 
     }
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .review h1 {
         font-size: 40px;
     }
+    .review .review_box {
+        flex-direction: column;
+        top: 5%;
+    }
     .review .review_box .review_card {
-        width: 100%;
-        padding: 15px;
+        width: 90%;
         margin: 10px;
     }
     .review .profile .profile_image {
