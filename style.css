@@ -676,65 +676,6 @@ footer .footer_main .tag .social_link a::after{
 }
 
 
-@media (max-width: 600px) {
-    .review h1 {
-        font-size: 40px;
-    }
-
-    .review .review_box {
-        flex-direction: column;
-        top: 5%;
-    }
-
-    .review .review_box .review_card {
-        width: 90%;
-    }
-
-    .review .profile .profile_image {
-        width: 50px;
-        height: 50px;
-    }
-
-    .review .review_box .review_card .card_top .profile .name {
-        font-size: 16px;
-    }
-
-    .review .review_box .review_card .card_top .profile .name strong {
-        font-size: 18px;
-    }
-}
-
-/* dektop */
-
-@media (min-width: 1025px) {
-    .review h1 {
-        font-size: 60px;
-    }
-
-    .review .review_box {
-        width: 85%;
-    }
-
-    .review .review_box .review_card {
-        width: 70%;
-    }
-
-    .review .profile .profile_image {
-        width: 60px;
-        height: 60px;
-    }
-
-    .review .review_box .review_card .card_top .profile .name {
-        font-size: 20px;
-    }
-
-    .review .review_box .review_card .card_top .profile .name strong {
-        font-size: 22px;
-    }
-}
-
-
-
 @media only screen and (max-width: 600px) {
     .review h1 {
         font-size: 40px;
