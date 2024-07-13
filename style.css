@@ -510,6 +510,22 @@ footer .footer_main .tag .social_link a::after{
 
 /* media query */
 
+
+@media (max-width: 768px) {
+    .logo h1 {
+        font-size: 28px;
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .logo h1 {
+        font-size: 22px;
+    }
+}
+
+
+
 @media (max-width: 768px) {
     section nav .logo{
         font-size: 30px;
