@@ -508,7 +508,6 @@ footer .footer_main .tag .social_link a::after{
 
 
 
-/* media query */
 
 
 @media (max-width: 768px) {
@@ -541,7 +540,6 @@ footer .footer_main .tag .social_link a::after{
     }
 }
 
-/* dfg */
 
 @media (max-width: 1200px) {
     section .main .main_content .main_text h1 {
